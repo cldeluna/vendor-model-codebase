@@ -12,8 +12,7 @@ Dimension Data Configuration Template Library
 [comment]: # (Add notes about what is included in this template)
 
 ## Validated Software Versions
-
-[comment]: # (add software version (file) on which this template has been tested )
+[comment]: # (add software version -file- on which this template has been tested )
 
 [comment]: # (Example: - asr1000rp2-adventerprisek9.03.13.04.S.154-3.S4-ext.bin)
 
