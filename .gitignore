@@ -1,0 +1,11 @@
+*.pyc
+*.box
+.vagrant
+*.log
+*.backup
+*ENV*
+.DS*
+.idea*
+__*
+test*
+/local_working_files/*

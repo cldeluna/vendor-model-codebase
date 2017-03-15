@@ -1,0 +1,58 @@
+!DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+!DDDDDDDDDDDDDDDD Vendor  Model Base Template DDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+!DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+!!
+!! The Base templates defines for a device:
+!! - best practice global commands
+!! - HOSTNAME
+!! - VTY Access and local AAA
+!! - Management Interface and/or
+!! - Management Vlan
+!! - default gateway
+!! - Source Interface
+!! - base Interface configuration from a range command
+!! - Stack priority
+!! - Stack pre-provisioning
+!!
+## List all the variables that are included in the template under "CSV Headers"
+## These lines should be copined and then used to deifne the first header row
+## in an Excel file.  Each subsequent row will generate a config file for a 
+## device based on the selected template
+##
+## CSV Headers
+## HOSTNAME, 
+##
+# Comments begin with "#" (as in python) and will not appear in the resulting
+# configuration file.  Lines which begin with "!" will be included.
+!DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+!
+! Function Configuration for {{ HOSTNAME }}
+!
+!
+
+
+banner motd #
+ _____  _                          _             _____        _        
+|  __ \(_)                        (_)           |  __ \      | |       
+| |  | |_ _ __ ___   ___ _ __  ___ _  ___  _ __ | |  | | __ _| |_ __ _ 
+| |  | | | '_ ` _ \ / _ \ '_ \/ __| |/ _ \| '_ \| |  | |/ _` | __/ _` |
+| |__| | | | | | | |  __/ | | \__ \ | (_) | | | | |__| | (_| | || (_| |
+|_____/|_|_| |_| |_|\___|_| |_|___/_|\___/|_| |_|_____/ \__,_|\__\__,_|
+                                                                       
+                                                                        
+UNAUTHORIZED ACCESS TO THIS NETWORK DEVICE IS PROHIBITED.
+You must have explicit permission to access or configure this device.  All activities performed on this device are logged and violations of this policy may result in disciplinary or legal action.
+#
+!
+!
+
+!
+end
+!
+!
+! +-+-+ +-+-+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+
+! |D|D| |C|o|n|f|i|g|u|r|a|t|i|o|n| |T|e|m|p|l|a|t|e|s|
+! +-+-+ +-+-+-+-+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+
+!
+#!DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+!
